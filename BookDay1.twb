@@ -1,0 +1,1943 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook original-version='18.1' source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='nba201819 (nba201819)' inline='true' name='federated.0qk9afh1x3fot319t9je70t1xdvv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nba201819' name='excel-direct.0d8q3310n1gra918e49k7151g4mp'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Sport/OneDrive/Desktop/Week 3/nba201819.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0d8q3310n1gra918e49k7151g4mp' name='nba201819' table='[nba201819$]' type='table'>
+          <columns gridOrigin='A1:BV31:no:A1:BV31:0' header='yes' outcome='6'>
+            <column datatype='string' name='Season' ordinal='0' />
+            <column datatype='string' name='Team' ordinal='1' />
+            <column datatype='real' name='Age' ordinal='2' />
+            <column datatype='integer' name='W' ordinal='3' />
+            <column datatype='integer' name='L' ordinal='4' />
+            <column datatype='integer' name='PW' ordinal='5' />
+            <column datatype='integer' name='PL' ordinal='6' />
+            <column datatype='real' name='MOV' ordinal='7' />
+            <column datatype='real' name='SOS' ordinal='8' />
+            <column datatype='real' name='SRS' ordinal='9' />
+            <column datatype='real' name='ORtg' ordinal='10' />
+            <column datatype='real' name='DRtg' ordinal='11' />
+            <column datatype='real' name='NRtg' ordinal='12' />
+            <column datatype='real' name='Pace' ordinal='13' />
+            <column datatype='real' name='FTr' ordinal='14' />
+            <column datatype='real' name='3PAr' ordinal='15' />
+            <column datatype='real' name='TS%' ordinal='16' />
+            <column datatype='real' name='OffenseeFG%' ordinal='17' />
+            <column datatype='real' name='OffenseTOV%' ordinal='18' />
+            <column datatype='real' name='OffenseORB%' ordinal='19' />
+            <column datatype='real' name='OffenseFT/FGA' ordinal='20' />
+            <column datatype='real' name='DefenseeFG%' ordinal='21' />
+            <column datatype='real' name='DefenseTOV%' ordinal='22' />
+            <column datatype='real' name='DefenseDRB%' ordinal='23' />
+            <column datatype='real' name='DefenseFT/FGA' ordinal='24' />
+            <column datatype='string' name='Arena' ordinal='25' />
+            <column datatype='integer' name='Attend.' ordinal='26' />
+            <column datatype='integer' name='Attend./G' ordinal='27' />
+            <column datatype='integer' name='G' ordinal='28' />
+            <column datatype='integer' name='MP' ordinal='29' />
+            <column datatype='real' name='FG' ordinal='30' />
+            <column datatype='real' name='FGA' ordinal='31' />
+            <column datatype='real' name='FG%' ordinal='32' />
+            <column datatype='real' name='3P' ordinal='33' />
+            <column datatype='real' name='3PA' ordinal='34' />
+            <column datatype='real' name='3P%' ordinal='35' />
+            <column datatype='real' name='2P' ordinal='36' />
+            <column datatype='real' name='2PA' ordinal='37' />
+            <column datatype='real' name='2P%' ordinal='38' />
+            <column datatype='real' name='FT' ordinal='39' />
+            <column datatype='real' name='FTA' ordinal='40' />
+            <column datatype='real' name='FT%' ordinal='41' />
+            <column datatype='real' name='ORB' ordinal='42' />
+            <column datatype='real' name='DRB' ordinal='43' />
+            <column datatype='real' name='TRB' ordinal='44' />
+            <column datatype='real' name='AST' ordinal='45' />
+            <column datatype='real' name='STL' ordinal='46' />
+            <column datatype='real' name='BLK' ordinal='47' />
+            <column datatype='real' name='TOV' ordinal='48' />
+            <column datatype='real' name='PF' ordinal='49' />
+            <column datatype='real' name='PTS' ordinal='50' />
+            <column datatype='integer' name='OpponentG' ordinal='51' />
+            <column datatype='integer' name='OpponentMP' ordinal='52' />
+            <column datatype='real' name='OpponentFG' ordinal='53' />
+            <column datatype='real' name='OpponentFGA' ordinal='54' />
+            <column datatype='real' name='OpponentFG%' ordinal='55' />
+            <column datatype='real' name='Opponent3P' ordinal='56' />
+            <column datatype='real' name='Opponent3PA' ordinal='57' />
+            <column datatype='real' name='Opponent3P%' ordinal='58' />
+            <column datatype='real' name='Opponent2P' ordinal='59' />
+            <column datatype='real' name='Opponent2PA' ordinal='60' />
+            <column datatype='real' name='Opponent2P%' ordinal='61' />
+            <column datatype='real' name='OpponentFT' ordinal='62' />
+            <column datatype='real' name='OpponentFTA' ordinal='63' />
+            <column datatype='real' name='OpponentFT%' ordinal='64' />
+            <column datatype='real' name='OpponentORB' ordinal='65' />
+            <column datatype='real' name='OpponentDRB' ordinal='66' />
+            <column datatype='real' name='OpponentTRB' ordinal='67' />
+            <column datatype='real' name='OpponentAST' ordinal='68' />
+            <column datatype='real' name='OpponentSTL' ordinal='69' />
+            <column datatype='real' name='OpponentBLK' ordinal='70' />
+            <column datatype='real' name='OpponentTOV' ordinal='71' />
+            <column datatype='real' name='OpponentPF' ordinal='72' />
+            <column datatype='real' name='OpponentPTS' ordinal='73' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0d8q3310n1gra918e49k7151g4mp' name='nba201819' table='[nba201819$]' type='table'>
+          <columns gridOrigin='A1:BV31:no:A1:BV31:0' header='yes' outcome='6'>
+            <column datatype='string' name='Season' ordinal='0' />
+            <column datatype='string' name='Team' ordinal='1' />
+            <column datatype='real' name='Age' ordinal='2' />
+            <column datatype='integer' name='W' ordinal='3' />
+            <column datatype='integer' name='L' ordinal='4' />
+            <column datatype='integer' name='PW' ordinal='5' />
+            <column datatype='integer' name='PL' ordinal='6' />
+            <column datatype='real' name='MOV' ordinal='7' />
+            <column datatype='real' name='SOS' ordinal='8' />
+            <column datatype='real' name='SRS' ordinal='9' />
+            <column datatype='real' name='ORtg' ordinal='10' />
+            <column datatype='real' name='DRtg' ordinal='11' />
+            <column datatype='real' name='NRtg' ordinal='12' />
+            <column datatype='real' name='Pace' ordinal='13' />
+            <column datatype='real' name='FTr' ordinal='14' />
+            <column datatype='real' name='3PAr' ordinal='15' />
+            <column datatype='real' name='TS%' ordinal='16' />
+            <column datatype='real' name='OffenseeFG%' ordinal='17' />
+            <column datatype='real' name='OffenseTOV%' ordinal='18' />
+            <column datatype='real' name='OffenseORB%' ordinal='19' />
+            <column datatype='real' name='OffenseFT/FGA' ordinal='20' />
+            <column datatype='real' name='DefenseeFG%' ordinal='21' />
+            <column datatype='real' name='DefenseTOV%' ordinal='22' />
+            <column datatype='real' name='DefenseDRB%' ordinal='23' />
+            <column datatype='real' name='DefenseFT/FGA' ordinal='24' />
+            <column datatype='string' name='Arena' ordinal='25' />
+            <column datatype='integer' name='Attend.' ordinal='26' />
+            <column datatype='integer' name='Attend./G' ordinal='27' />
+            <column datatype='integer' name='G' ordinal='28' />
+            <column datatype='integer' name='MP' ordinal='29' />
+            <column datatype='real' name='FG' ordinal='30' />
+            <column datatype='real' name='FGA' ordinal='31' />
+            <column datatype='real' name='FG%' ordinal='32' />
+            <column datatype='real' name='3P' ordinal='33' />
+            <column datatype='real' name='3PA' ordinal='34' />
+            <column datatype='real' name='3P%' ordinal='35' />
+            <column datatype='real' name='2P' ordinal='36' />
+            <column datatype='real' name='2PA' ordinal='37' />
+            <column datatype='real' name='2P%' ordinal='38' />
+            <column datatype='real' name='FT' ordinal='39' />
+            <column datatype='real' name='FTA' ordinal='40' />
+            <column datatype='real' name='FT%' ordinal='41' />
+            <column datatype='real' name='ORB' ordinal='42' />
+            <column datatype='real' name='DRB' ordinal='43' />
+            <column datatype='real' name='TRB' ordinal='44' />
+            <column datatype='real' name='AST' ordinal='45' />
+            <column datatype='real' name='STL' ordinal='46' />
+            <column datatype='real' name='BLK' ordinal='47' />
+            <column datatype='real' name='TOV' ordinal='48' />
+            <column datatype='real' name='PF' ordinal='49' />
+            <column datatype='real' name='PTS' ordinal='50' />
+            <column datatype='integer' name='OpponentG' ordinal='51' />
+            <column datatype='integer' name='OpponentMP' ordinal='52' />
+            <column datatype='real' name='OpponentFG' ordinal='53' />
+            <column datatype='real' name='OpponentFGA' ordinal='54' />
+            <column datatype='real' name='OpponentFG%' ordinal='55' />
+            <column datatype='real' name='Opponent3P' ordinal='56' />
+            <column datatype='real' name='Opponent3PA' ordinal='57' />
+            <column datatype='real' name='Opponent3P%' ordinal='58' />
+            <column datatype='real' name='Opponent2P' ordinal='59' />
+            <column datatype='real' name='Opponent2PA' ordinal='60' />
+            <column datatype='real' name='Opponent2P%' ordinal='61' />
+            <column datatype='real' name='OpponentFT' ordinal='62' />
+            <column datatype='real' name='OpponentFTA' ordinal='63' />
+            <column datatype='real' name='OpponentFT%' ordinal='64' />
+            <column datatype='real' name='OpponentORB' ordinal='65' />
+            <column datatype='real' name='OpponentDRB' ordinal='66' />
+            <column datatype='real' name='OpponentTRB' ordinal='67' />
+            <column datatype='real' name='OpponentAST' ordinal='68' />
+            <column datatype='real' name='OpponentSTL' ordinal='69' />
+            <column datatype='real' name='OpponentBLK' ordinal='70' />
+            <column datatype='real' name='OpponentTOV' ordinal='71' />
+            <column datatype='real' name='OpponentPF' ordinal='72' />
+            <column datatype='real' name='OpponentPTS' ordinal='73' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BV31:no:A1:BV31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>W</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[W]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>W</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[L]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>L</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PW]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>PW</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>PL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MOV</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MOV]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>MOV</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SOS]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>SOS</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SRS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SRS]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>SRS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ORtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ORtg]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>ORtg</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DRtg]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DRtg</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NRtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NRtg]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>NRtg</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pace</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pace]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Pace</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FTr]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FTr</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3PAr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3PAr]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>3PAr</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TS%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TS%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>TS%</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OffenseeFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OffenseeFG%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OffenseeFG%</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OffenseTOV%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OffenseTOV%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OffenseTOV%</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OffenseORB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OffenseORB%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OffenseORB%</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OffenseFT/FGA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OffenseFT/FGA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OffenseFT/FGA</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseeFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DefenseeFG%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DefenseeFG%</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseTOV%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DefenseTOV%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DefenseTOV%</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseDRB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DefenseDRB%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DefenseDRB%</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseFT/FGA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DefenseFT/FGA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DefenseFT/FGA</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arena</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Arena]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Arena</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attend.</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attend.]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Attend.</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attend./G</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attend./G]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Attend./G</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>G</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MP]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>MP</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FG]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FG</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FGA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FGA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FGA</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FG%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FG%</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3P</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3P]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>3P</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3PA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3PA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>3PA</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3P%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>3P%</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2P</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2P]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>2P</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2PA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2PA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>2PA</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2P%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>2P%</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FT]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FT</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FTA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FTA</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FT%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FT%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>FT%</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ORB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ORB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>ORB</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DRB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>DRB</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TRB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>TRB</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AST]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>AST</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STL]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>STL</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLK</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BLK]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>BLK</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOV</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOV]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>TOV</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PF]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>PF</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PTS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PTS]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>PTS</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OpponentG]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentG</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentMP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OpponentMP]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentMP</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFG]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFG</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFGA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFGA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFGA</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFG%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFG%</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent3P</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent3P]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent3P</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent3PA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent3PA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent3PA</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent3P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent3P%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent3P%</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent2P</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent2P]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent2P</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent2PA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent2PA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent2PA</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent2P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opponent2P%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>Opponent2P%</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFT]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFT</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFTA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFTA]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFTA</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentFT%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentFT%]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentFT%</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentORB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentORB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentORB</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentDRB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentDRB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentDRB</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentTRB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentTRB]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentTRB</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentAST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentAST]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentAST</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentSTL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentSTL]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentSTL</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentBLK</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentBLK]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentBLK</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentTOV</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentTOV]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentTOV</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentPF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentPF]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentPF</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpponentPTS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpponentPTS]</local-name>
+            <parent-name>[nba201819]</parent-name>
+            <remote-alias>OpponentPTS</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nba201819_22F1914536F04E3F80ACC753BB2F28B4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='PTS Diff' datatype='real' name='[Calculation_150026164804399104]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PTS]-[OpponentPTS]' />
+      </column>
+      <column caption='Expected Win Perc' datatype='real' name='[Calculation_150026164804923393]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PTS]^15/([PTS]^15+[OpponentPTS]^15)' />
+      </column>
+      <column caption='Win%' datatype='real' name='[Calculation_150026164806881283]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[W]/[G]' />
+      </column>
+      <column caption='Resid' datatype='real' name='[Calculation_150026164806955012]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_150026164806881283]-[Calculation_150026164804923393]' />
+      </column>
+      <column caption='Lucky Wins' datatype='real' name='[Calculation_150026164808491013]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_150026164806955012]*[G]' />
+      </column>
+      <column caption='D Rtg' datatype='real' name='[DRtg]' role='measure' type='quantitative' />
+      <column caption='F Tr' datatype='real' name='[FTr]' role='measure' type='quantitative' />
+      <column caption='N Rtg' datatype='real' name='[NRtg]' role='measure' type='quantitative' />
+      <column caption='O Rtg' datatype='real' name='[ORtg]' role='measure' type='quantitative' />
+      <column caption='Opponent AST' datatype='real' name='[OpponentAST]' role='measure' type='quantitative' />
+      <column caption='Opponent BLK' datatype='real' name='[OpponentBLK]' role='measure' type='quantitative' />
+      <column caption='Opponent DRB' datatype='real' name='[OpponentDRB]' role='measure' type='quantitative' />
+      <column caption='Opponent FGA' datatype='real' name='[OpponentFGA]' role='measure' type='quantitative' />
+      <column caption='Opponent FG' datatype='real' name='[OpponentFG]' role='measure' type='quantitative' />
+      <column caption='Opponent FTA' datatype='real' name='[OpponentFTA]' role='measure' type='quantitative' />
+      <column caption='Opponent FT' datatype='real' name='[OpponentFT]' role='measure' type='quantitative' />
+      <column caption='Opponent G' datatype='integer' name='[OpponentG]' role='measure' type='quantitative' />
+      <column caption='Opponent MP' datatype='integer' name='[OpponentMP]' role='measure' type='quantitative' />
+      <column caption='Opponent ORB' datatype='real' name='[OpponentORB]' role='measure' type='quantitative' />
+      <column caption='Opponent PF' datatype='real' name='[OpponentPF]' role='measure' type='quantitative' />
+      <column caption='Opponent PTS' datatype='real' name='[OpponentPTS]' role='measure' type='quantitative' />
+      <column caption='Opponent STL' datatype='real' name='[OpponentSTL]' role='measure' type='quantitative' />
+      <column caption='Opponent TOV' datatype='real' name='[OpponentTOV]' role='measure' type='quantitative' />
+      <column caption='Opponent TRB' datatype='real' name='[OpponentTRB]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='nba201819' datatype='table' name='[__tableau_internal_object_id__].[nba201819_22F1914536F04E3F80ACC753BB2F28B4]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='nba201819' id='nba201819_22F1914536F04E3F80ACC753BB2F28B4'>
+            <properties context=''>
+              <relation connection='excel-direct.0d8q3310n1gra918e49k7151g4mp' name='nba201819' table='[nba201819$]' type='table'>
+                <columns gridOrigin='A1:BV31:no:A1:BV31:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Season' ordinal='0' />
+                  <column datatype='string' name='Team' ordinal='1' />
+                  <column datatype='real' name='Age' ordinal='2' />
+                  <column datatype='integer' name='W' ordinal='3' />
+                  <column datatype='integer' name='L' ordinal='4' />
+                  <column datatype='integer' name='PW' ordinal='5' />
+                  <column datatype='integer' name='PL' ordinal='6' />
+                  <column datatype='real' name='MOV' ordinal='7' />
+                  <column datatype='real' name='SOS' ordinal='8' />
+                  <column datatype='real' name='SRS' ordinal='9' />
+                  <column datatype='real' name='ORtg' ordinal='10' />
+                  <column datatype='real' name='DRtg' ordinal='11' />
+                  <column datatype='real' name='NRtg' ordinal='12' />
+                  <column datatype='real' name='Pace' ordinal='13' />
+                  <column datatype='real' name='FTr' ordinal='14' />
+                  <column datatype='real' name='3PAr' ordinal='15' />
+                  <column datatype='real' name='TS%' ordinal='16' />
+                  <column datatype='real' name='OffenseeFG%' ordinal='17' />
+                  <column datatype='real' name='OffenseTOV%' ordinal='18' />
+                  <column datatype='real' name='OffenseORB%' ordinal='19' />
+                  <column datatype='real' name='OffenseFT/FGA' ordinal='20' />
+                  <column datatype='real' name='DefenseeFG%' ordinal='21' />
+                  <column datatype='real' name='DefenseTOV%' ordinal='22' />
+                  <column datatype='real' name='DefenseDRB%' ordinal='23' />
+                  <column datatype='real' name='DefenseFT/FGA' ordinal='24' />
+                  <column datatype='string' name='Arena' ordinal='25' />
+                  <column datatype='integer' name='Attend.' ordinal='26' />
+                  <column datatype='integer' name='Attend./G' ordinal='27' />
+                  <column datatype='integer' name='G' ordinal='28' />
+                  <column datatype='integer' name='MP' ordinal='29' />
+                  <column datatype='real' name='FG' ordinal='30' />
+                  <column datatype='real' name='FGA' ordinal='31' />
+                  <column datatype='real' name='FG%' ordinal='32' />
+                  <column datatype='real' name='3P' ordinal='33' />
+                  <column datatype='real' name='3PA' ordinal='34' />
+                  <column datatype='real' name='3P%' ordinal='35' />
+                  <column datatype='real' name='2P' ordinal='36' />
+                  <column datatype='real' name='2PA' ordinal='37' />
+                  <column datatype='real' name='2P%' ordinal='38' />
+                  <column datatype='real' name='FT' ordinal='39' />
+                  <column datatype='real' name='FTA' ordinal='40' />
+                  <column datatype='real' name='FT%' ordinal='41' />
+                  <column datatype='real' name='ORB' ordinal='42' />
+                  <column datatype='real' name='DRB' ordinal='43' />
+                  <column datatype='real' name='TRB' ordinal='44' />
+                  <column datatype='real' name='AST' ordinal='45' />
+                  <column datatype='real' name='STL' ordinal='46' />
+                  <column datatype='real' name='BLK' ordinal='47' />
+                  <column datatype='real' name='TOV' ordinal='48' />
+                  <column datatype='real' name='PF' ordinal='49' />
+                  <column datatype='real' name='PTS' ordinal='50' />
+                  <column datatype='integer' name='OpponentG' ordinal='51' />
+                  <column datatype='integer' name='OpponentMP' ordinal='52' />
+                  <column datatype='real' name='OpponentFG' ordinal='53' />
+                  <column datatype='real' name='OpponentFGA' ordinal='54' />
+                  <column datatype='real' name='OpponentFG%' ordinal='55' />
+                  <column datatype='real' name='Opponent3P' ordinal='56' />
+                  <column datatype='real' name='Opponent3PA' ordinal='57' />
+                  <column datatype='real' name='Opponent3P%' ordinal='58' />
+                  <column datatype='real' name='Opponent2P' ordinal='59' />
+                  <column datatype='real' name='Opponent2PA' ordinal='60' />
+                  <column datatype='real' name='Opponent2P%' ordinal='61' />
+                  <column datatype='real' name='OpponentFT' ordinal='62' />
+                  <column datatype='real' name='OpponentFTA' ordinal='63' />
+                  <column datatype='real' name='OpponentFT%' ordinal='64' />
+                  <column datatype='real' name='OpponentORB' ordinal='65' />
+                  <column datatype='real' name='OpponentDRB' ordinal='66' />
+                  <column datatype='real' name='OpponentTRB' ordinal='67' />
+                  <column datatype='real' name='OpponentAST' ordinal='68' />
+                  <column datatype='real' name='OpponentSTL' ordinal='69' />
+                  <column datatype='real' name='OpponentBLK' ordinal='70' />
+                  <column datatype='real' name='OpponentTOV' ordinal='71' />
+                  <column datatype='real' name='OpponentPF' ordinal='72' />
+                  <column datatype='real' name='OpponentPTS' ordinal='73' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Residual Plot</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nba201819 (nba201819)' name='federated.0qk9afh1x3fot319t9je70t1xdvv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qk9afh1x3fot319t9je70t1xdvv'>
+            <column caption='PTS Diff' datatype='real' name='[Calculation_150026164804399104]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PTS]-[OpponentPTS]' />
+            </column>
+            <column caption='Expected Win Perc' datatype='real' name='[Calculation_150026164804923393]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PTS]^15/([PTS]^15+[OpponentPTS]^15)' />
+            </column>
+            <column caption='Win%' datatype='real' name='[Calculation_150026164806881283]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[W]/[G]' />
+            </column>
+            <column caption='Resid' datatype='real' name='[Calculation_150026164806955012]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_150026164806881283]-[Calculation_150026164804923393]' />
+            </column>
+            <column datatype='integer' name='[G]' role='measure' type='quantitative' />
+            <column caption='Opponent PTS' datatype='real' name='[OpponentPTS]' role='measure' type='quantitative' />
+            <column datatype='real' name='[PTS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[W]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_150026164804399104]' derivation='None' name='[none:Calculation_150026164804399104:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_150026164806955012]' derivation='None' name='[none:Calculation_150026164806955012:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Team:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Calculation_150026164806955012:qk]</rows>
+        <cols>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Calculation_150026164804399104:qk]</cols>
+      </table>
+      <simple-id uuid='{4F11B109-F03C-4D38-808D-BF054F29A5D5}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nba201819 (nba201819)' name='federated.0qk9afh1x3fot319t9je70t1xdvv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qk9afh1x3fot319t9je70t1xdvv'>
+            <column caption='Expected Win Perc' datatype='real' name='[Calculation_150026164804923393]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PTS]^15/([PTS]^15+[OpponentPTS]^15)' />
+            </column>
+            <column caption='Win%' datatype='real' name='[Calculation_150026164806881283]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[W]/[G]' />
+            </column>
+            <column caption='Resid' datatype='real' name='[Calculation_150026164806955012]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_150026164806881283]-[Calculation_150026164804923393]' />
+            </column>
+            <column caption='Lucky Wins' datatype='real' name='[Calculation_150026164808491013]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_150026164806955012]*[G]' />
+            </column>
+            <column datatype='integer' name='[G]' role='measure' type='quantitative' />
+            <column caption='Opponent PTS' datatype='real' name='[OpponentPTS]' role='measure' type='quantitative' />
+            <column datatype='real' name='[PTS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[W]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_150026164808491013]' derivation='Attribute' name='[attr:Calculation_150026164808491013:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0qk9afh1x3fot319t9je70t1xdvv].[attr:Calculation_150026164808491013:qk]</rows>
+        <cols>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Team:nk]</cols>
+      </table>
+      <simple-id uuid='{11D0374B-58D9-47FB-914B-1951CB1A1F40}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Calculation_150026164804399104:qk]</field>
+            <field>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Team:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{85F6E9B5-B311-4127-9092-F19B48829ACB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qk9afh1x3fot319t9je70t1xdvv].[none:Team:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B1907F31-7B05-44CD-A4FC-98B139BFDCEC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
